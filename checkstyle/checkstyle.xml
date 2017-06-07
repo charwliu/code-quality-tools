@@ -203,7 +203,6 @@ page at http://checkstyle.sourceforge.net/config.html -->
             <property name="applyToPublic" value="true" />
             <property name="applyToProtected" value="true" />
             <property name="applyToPackage" value="true" />
-            <property name="applyToPrivate" value="true" />
             <property name="format" value="^[a-z][a-zA-Z0-9]*$" />
             <property name="severity" value="error" />
         </module>
