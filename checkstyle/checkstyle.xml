@@ -231,6 +231,7 @@ page at http://checkstyle.sourceforge.net/config.html -->
         <module name="LocalVariableName">
             <!-- Validates identifiers for local variables against the
               expression "^[a-z][a-zA-Z0-9]*$". -->
+            <property name="format" value="^[a-z][a-zA-Z0-9]*(_[a-zA-Z0-9]+)*$" />
             <property name="severity" value="error" />
         </module>
 
